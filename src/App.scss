@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  height: 100px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  align-items: center;
+  background-color: gray;
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: skyblue;
+    margin: 10px;
+    &.active {
+      background-color: orange;
+      color: white;
+    }
+  }
+}
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 100px;
+  color: lightblue;
+}
+
+.product {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 0;
+  font-family: impact;
+  color: gray;
+
+}
